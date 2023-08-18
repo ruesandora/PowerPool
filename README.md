@@ -116,6 +116,37 @@ Worker CÜZDAN ADRESİ (private key değil)
 
 ![image](https://github.com/ruesandora/PowerPool/assets/101149671/8c8dc8c6-a09d-4d37-be60-5ca81d16161f)
 
+> SYNC OLDUYSANIZ BURDAN SONRA DEVAM EDİNİZ, DASHBOARD'DAN SYNC DUMUNUZU KONTROL EDİNİZ.
+
+Şimdi en önemli kısım:
+
+> [Buradan](http://my.dappnode/#/installer/%2Fipfs%2FQmP55bcEhtWtrbiueisuoZx4XN5AeLsuvtKU6CFoTG52GF) Poweragent'i çalıştracağız:
+
+> Aşama-1: Yine advanced optionsdan tiki açalım
+
+> Aşama-2: Worker cüzdan adresimizi girelim
+
+> Aşama-3: Worker Key olarak bilgisayarımıza yüklediğimiz UTC'li klasörü sürükleyelim.
+
+> Aşama-4: Keyfile Password için: `node jsongen.js <> <>` komutunda kullandığımız şifreyi girelim.
+
+> Aşama-5: Network'ü Sepolia olarak seçelim.
+
+> Aşama-6: RPC olarak bu bağlantıyı girelim: `ws://sepolia-geth.dappnode:8546`
+
+> Aşama-7: Agent adresi girelim: `0xc8E864f12c337Bdf6294a3DCeE0E565D2B1B4d90`
+
+> Aşama-8: Burada agent adresinden sonra 3 satırı boş bırakıyoruz son 3 satıra gelelim.
+
+> Aşama-9: Value'leri true, gas'ı'da 60,000 yapıp, submit diyoruz.
+
+
+
+
+
+
+
+
 
 
 
