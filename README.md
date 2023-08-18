@@ -29,11 +29,11 @@ dappnode_wireguard
 
 > [Buradan](https://www.wireguard.com/install/) WireGuard'ı indirelim.
 
-> Görselde ki `boş tünel ekle` kısmına yukarıda kaydettiğimiz çıktıyı girelim (`dappnode_wireguard çıktısı`)
-
 ![image](https://github.com/ruesandora/PowerPool/assets/101149671/23e38061-fd30-4e7a-8cce-ca6eeb5cde39)
 
-![image](https://github.com/ruesandora/PowerPool/assets/101149671/4c91073f-a34a-46d5-9261-51a28a406abf)
+> Görselde ki `boş tünel ekle` kısmına yukarıda kaydettiğimiz çıktıyı girelim (`dappnode_wireguard çıktısı`)
+
+![image](https://github.com/ruesandora/PowerPool/assets/101149671/19601e12-12a4-4455-bafd-07b9a4ae1eb0)
 
 > Kaydettikten sonra etkinleştir diyoruz ve sunucumuza geri dönelim:
 
@@ -61,7 +61,6 @@ npm i
 > Sonra karşınıza çıkan seçenekleri next next diyerek kuruluma başlayın.
 
 ![image](https://github.com/ruesandora/PowerPool/assets/101149671/ca513c20-a7ef-4cbf-80ca-44a782374582)
-
 
 > BURADA: görselde ki gibi `Prism Sepolia` ve `Sepolia GETH` sync olmasını bekleyin, `Sepolia GETH 1-2 saat sürebilir` sunucunuza bağlı:
 
