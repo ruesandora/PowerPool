@@ -107,9 +107,15 @@ Worker CÜZDAN ADRESİ (private key değil)
 
 ![image](https://github.com/ruesandora/PowerPool/assets/101149671/4615ba81-a938-44da-bb35-87ded38b07bd)
 
-> 
+> [Buraya](https://sepolia.etherscan.io/address/0xc8E864f12c337Bdf6294a3DCeE0E565D2B1B4d90#readContract#F27) Worker Adresinizi aratın
 
+> Size bir KeeperID verecek (Mesela `35` gibi)
 
+![image](https://github.com/ruesandora/PowerPool/assets/101149671/ea366421-f65f-4212-9a56-9427ffde42d1)
+
+> [Buraya'da](https://sepolia.etherscan.io/address/0xc8E864f12c337Bdf6294a3DCeE0E565D2B1B4d90#readContract#F13) size az önce verilen KeeperID'ınızı aratın bakalım, admin ve Worker adresiniz doğru mu kontrol edin.
+
+![image](https://github.com/ruesandora/PowerPool/assets/101149671/8c8dc8c6-a09d-4d37-be60-5ca81d16161f)
 
 
 
