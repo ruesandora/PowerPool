@@ -132,6 +132,8 @@ Worker CÜZDAN ADRESİ (private key değil)
 
 > Aşama-5: Network'ü Sepolia olarak seçelim.
 
+![image](https://github.com/ruesandora/PowerPool/assets/101149671/3b5ffef5-ead1-4c61-86ee-405af16052f9)
+
 > Aşama-6: RPC olarak bu bağlantıyı girelim: `ws://sepolia-geth.dappnode:8546`
 
 > Aşama-7: Agent adresi girelim: `0xc8E864f12c337Bdf6294a3DCeE0E565D2B1B4d90`
