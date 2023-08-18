@@ -143,8 +143,9 @@ Worker CÜZDAN ADRESİ (private key değil)
 > Aşama-9: Value'leri true, gas'ı'da 60,000 yapıp, submit diyoruz.
 
 
+# doğru loglar böyle akar:
 
-
+![image](https://github.com/ruesandora/PowerPool/assets/101149671/6b760bb5-6030-4648-ae3a-a03f4d98388c)
 
 
 
