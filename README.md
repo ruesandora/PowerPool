@@ -1,18 +1,19 @@
-# PowerPool
-A repo on how to run and test a node in the PowerPool
+<h1 align="center"> Power Pool </h1>
 
-```sh
+> Eğer seçildiyseniz ve token aldıysanız bu floodu kullanın aksi taktirde vakit kaybıdır
+
+```console
 # Benim cihazım:
 4 CPU - 8 RAM - 150 SSD
 Debian 10 (Ubuntuya da kurdum sorunsuz ufak farklılıklar oluyor size kalmış)
 ```
 
-```sh
+```console
 # ADIM-1, Sunucumuzu güncelleyelim:
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 
-```sh
+```console
 # ADIM-2, Docker ile dappnode'u kuruyoruz (tek tek giriniz):
 sudo wget -O - https://prerequisites.dappnode.io | sudo bash
 sudo wget -O - https://installer.dappnode.io | sudo bash
@@ -22,7 +23,7 @@ source /usr/src/dappnode/DNCORE/.dappnode_profile
 dappnode_status
 ```
 
-```sh
+```console
 # ADIM-3, Çıktıyı kaydedlim:
 dappnode_wireguard
 ```
@@ -37,14 +38,14 @@ dappnode_wireguard
 
 > Kaydettikten sonra etkinleştir diyoruz ve sunucumuza geri dönelim:
 
-```sh
+```console
 # ADIM-4, Gerekli paketleri indirelim:
 sudo apt install git
 sudo apt install nodejs
 sudo apt install npm
 ```
 
-```sh
+```console
 # ADIM-5, agent'i klonlayalım:
 git clone https://github.com/powerpool-finance/powerpool-agent-v2-compose
 cd powerpool-agent-v2-compose
@@ -76,7 +77,7 @@ npm i
 
 > Daha sonra aşağıda ki komutu doldurup sunucunuzda bu komutu giriniz.
 
-```sh
+```console
 cd powerpool-agent-v2-compose
 # Tırnakları <> kaldırınız:
 node jsongen.js <worker_private_key> <password>
@@ -98,7 +99,7 @@ node jsongen.js <worker_private_key> <password>
 
 > İlk işlemin onaylanmasını bekleyin, onaylandıysa [bu](https://sepolia.etherscan.io/address/0xc8E864f12c337Bdf6294a3DCeE0E565D2B1B4d90#writeContract#F17) kontrata gidiniz ve aşağıda ki değerleri girin:
 
-```
+```console
 # Değerler:
 Worker CÜZDAN ADRESİ (private key değil)
 3000000000000000000000 (Buraya size verilen tokeni girebilirsiniz, genelde 3000 verilir siz kontrol edin yinede)
@@ -143,7 +144,7 @@ Worker CÜZDAN ADRESİ (private key değil)
 > Aşama-9: Value'leri true, gas'ı'da 60,000 yapıp, submit diyoruz.
 
 
-# doğru loglar böyle akar:
+<h1 align="center"> Doğru Log böyle akar </h1>
 
 ![image](https://github.com/ruesandora/PowerPool/assets/101149671/6b760bb5-6030-4648-ae3a-a03f4d98388c)
 
