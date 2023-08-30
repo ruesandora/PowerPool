@@ -1,30 +1,36 @@
 
 ### dappnode ==> Packages ==> Sepolia Geth ==> Config, Save the `ENV VALUE` of `EXTRA_OPTIONS`
 
-![image](https://github.com/ahmkah/PowerPool_Pruning/assets/99053148/d5f89e82-e670-4f18-bb09-b3ea1b2d0039)
+![image](https://github.com/ruesandora/PowerPool/assets/101149671/139f54ad-c22c-4b50-bc12-8ee2a5de648b)
 
 ### dappnode ==> Packages ==> Sepolia Geth ==> Remove in Info and delete the whole file.
 
-![image](https://github.com/ahmkah/PowerPool_Pruning/assets/99053148/614d9ec5-3b58-4544-b4a3-eb141be8c86e)
+![image](https://github.com/ruesandora/PowerPool/assets/101149671/b2b54733-5fc4-40d0-832c-2046b991202e)
+
 
 ### dappnode ==> Packages ==> Sepolia Geth ==> We write `--snapshot=false` in the EXTRA_OPTIONS section in Config and click update. We are waiting for sync.
 
-![image](https://github.com/ahmkah/PowerPool_Pruning/assets/99053148/07ebdbda-02ae-4299-9591-7febda52296a)
+![image](https://github.com/ruesandora/PowerPool/assets/101149671/25cc8232-27a5-496a-bba8-28fe68acea9f)
+
 
 ### dappnode ==> Expect Sepolia Geth sync on Dashboard 
-![image](https://github.com/ahmkah/PowerPool_Pruning/assets/99053148/b8cec9d1-bbaf-4667-96f5-960cd75c8d83)
+![image](https://github.com/ruesandora/PowerPool/assets/101149671/e0fca72a-6d7f-488f-8d14-4e10008d42d9)
 
-![image](https://github.com/ahmkah/PowerPool_Pruning/assets/99053148/4a55f196-b596-4357-8e13-63a11071e9ed)
+
+![image](https://github.com/ruesandora/PowerPool/assets/101149671/9f4736e6-a908-4c00-8102-521b4b0c2ed9)
+
 
 ### dappnode ==> Packages ==> Sepolia Geth ==> We note the block height in Logs. 
 
-![image](https://github.com/ahmkah/PowerPool_Pruning/assets/99053148/4b9df6ed-50e2-4a0f-88dc-de0854238b28)
+![image](https://github.com/ruesandora/PowerPool/assets/101149671/f4605b28-0efd-471a-ac79-57e29b963296)
+
 
 ### Now what we're going to do is wait for 288 blocks to pass like this... After 288 blocks have passed 
 
 ### dappnode ==> Packages ==> Sepolia Geth ==> We write `snapshot prune-state` in the EXTRA_OPTIONS section in Config and click update. We are waiting for the pruning process to be done
 
-![image](https://github.com/ahmkah/PowerPool_Pruning/assets/99053148/310c1be2-cfee-4b4e-baa5-b2a1f377aca1)
+![image](https://github.com/ruesandora/PowerPool/assets/101149671/ca5b2ec7-7347-4bc2-b681-34b0369aa132)
+
 
 ### Writing state bloom to disk name=/sepolia/geth/statebloom.0x409490d515d3f315bea34e05f1e0fe522c56ea44a849fffff38b1cf9d27c2e9f.bf.gz. 
 ### It already says how many minutes are left on the far right where it says `eta`, wait for this process to complete.
