@@ -13,7 +13,7 @@
 ![image](https://github.com/ruesandora/PowerPool/assets/101149671/ca5b2ec7-7347-4bc2-b681-34b0369aa132)
 
 
-### Writing state bloom to disk name=/sepolia/geth/statebloom.0x409490d515d3f315bea34e05f1e0fe522c56ea44a849fffff38b1cf9d27c2e9f.bf.gz. 
+### Writing state bloom to disk name=/sepolia/geth/statebloom.0x409490d515d3f315bea34e05f1e0fe522c56ea44a849fffff38b1cf9d27c2e9f.bf.gz 
 ### It already says how many minutes are left on the far right where it says `eta`, wait for this process to complete.
 
 ### dappnode ==> Packages ==> Sepolia Geth ==> Remove in Info and delete the whole file.
