@@ -20,7 +20,8 @@
 
 ![image](https://github.com/ruesandora/PowerPool/assets/101149671/b2b54733-5fc4-40d0-832c-2046b991202e)
 
-### dappnode ==> Packages ==> Sepolia Geth ==> In the EXTRA_OPTIONS section in Config we write `--syncmode=snap --datadir=statebloom.0x409490d515d3f315bea34e05f1e0fe522c56ea44a849fffff38b1cf9d27c2e9f.bf.gz.` and click update. 
+### dappnode ==> Packages ==> Sepolia Geth ==> In the EXTRA_OPTIONS section in Config we write 
+`--syncmode=snap --datadir=statebloom.0x409490d515d3f315bea34e05f1e0fe522c56ea44a849fffff38b1cf9d27c2e9f.bf.gz` and click update. 
 
 ### dappnode ==> Expect Sepolia Geth sync on Dashboard 
 ![image](https://github.com/ruesandora/PowerPool/assets/101149671/e0fca72a-6d7f-488f-8d14-4e10008d42d9)
