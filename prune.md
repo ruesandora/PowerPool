@@ -8,14 +8,6 @@
 
 ![image](https://github.com/ruesandora/PowerPool/assets/101149671/25cc8232-27a5-496a-bba8-28fe68acea9f)
 
-
-### dappnode ==> Packages ==> Sepolia Geth ==> We note the block height in Logs. 
-
-![image](https://github.com/ruesandora/PowerPool/assets/101149671/f4605b28-0efd-471a-ac79-57e29b963296)
-
-
-
-
 ### dappnode ==> Packages ==> Sepolia Geth ==> We write `snapshot prune-state` in the EXTRA_OPTIONS section in Config and click update. We are waiting for the pruning process to be done
 
 ![image](https://github.com/ruesandora/PowerPool/assets/101149671/ca5b2ec7-7347-4bc2-b681-34b0369aa132)
@@ -35,6 +27,7 @@
 
 
 ![image](https://github.com/ruesandora/PowerPool/assets/101149671/9f4736e6-a908-4c00-8102-521b4b0c2ed9)
+
 
 ### We are waiting for it to sync. This is the pruning process.
 
