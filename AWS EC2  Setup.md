@@ -28,7 +28,7 @@ dappnode_status
 
 
 ```console
-# ADIM-4, Çıktıyı kaydedlim:
+# ADIM-5, Çıktıyı kaydedlim:
 dappnode_wireguard
 ```
 
@@ -43,14 +43,14 @@ dappnode_wireguard
 > Kaydettikten sonra etkinleştir diyoruz ve sunucumuza geri dönelim:
 
 ```console
-# ADIM-4, Gerekli paketleri indirelim:
+# ADIM-6, Gerekli paketleri indirelim:
 sudo apt install git
 sudo apt install nodejs
 sudo apt install npm
 ```
 
 ```console
-# ADIM-5, agent'i klonlayalım:
+# ADIM-7, agent'i klonlayalım:
 git clone https://github.com/powerpool-finance/powerpool-agent-v2-compose
 cd powerpool-agent-v2-compose
 
