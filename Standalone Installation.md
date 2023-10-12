@@ -62,7 +62,7 @@ npm i
 > "sepolia-agent-standalone/keys/" içine taşıyalım ve "yourkeygoeshere" yazan dosyayı silelim..
 > Aşağıdaki dosyada gerekli yerleri düzeltip kaydedip çıkıyoruz ( CTRL+X y enter)
 
-sepolia-agent-standalone/config/main.yaml
+nano sepolia-agent-standalone/config/main.yaml
 
 > rpc: 'wss://sepolia-geth-ws.863d6819366102aa.dyndns.dappnode.io'
 > agents:
