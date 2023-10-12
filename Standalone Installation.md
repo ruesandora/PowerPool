@@ -87,6 +87,8 @@ docker compose up -d
 docker logs -f sepolia-agent-standalone-bot-1
 ```
 
+![image](https://github.com/ahmkah/PowerPool/assets/99053148/9fbc36d0-da82-42c5-8c34-2557a796cfe9)
+
 ```console
 # ADIM-10, Dappnode Entegrasyonu yapıp logları daha kolay izleyebiliriz başlayaım:
 Önce Wireguard ile node bağlanıyoruz ve Dappstore kısmına gelip aşağıdaki hash aratalım ve bypass alıp kuralım.
