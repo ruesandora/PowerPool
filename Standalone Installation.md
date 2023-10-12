@@ -60,7 +60,7 @@ npm i
 ```console
 # ADIM-7, PowerArgent yedek aldığımız  UTC--2023-08-18T09-32-40.364Z--8ccf..... dosyamızı Winscp tarzı bir uygulama ile
 > "sepolia-agent-standalone/keys/" içine taşıyalım ve "yourkeygoeshere" yazan dosyayı silelim..
-> Aşağıdaki dosyada gerekli yerleri düzeltip kaydedip çıkıyoruz ( CTRL+X y enter)
+> Aşağıdaki dosyada gerekli yerleri düzeltip Worker Adres ve Şifreyi değiştirmeyi unutmayın, kaydedip çıkıyoruz ( CTRL+X y enter)
 
 nano sepolia-agent-standalone/config/main.yaml
 
