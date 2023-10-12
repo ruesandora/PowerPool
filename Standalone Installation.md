@@ -64,11 +64,12 @@ npm i
 Aşağıdaki dosyada gerekli yerleri düzeltip kaydedip çıkıyoruz ( CTRL+X y enter)
 
 sepolia-agent-standalone/config/main.yaml
-![image](https://github.com/ahmkah/PowerPool/assets/99053148/af846c7d-001a-4752-90c2-892795e1fa26)
 
 rpc: 'wss://sepolia-geth-ws.863d6819366102aa.dyndns.dappnode.io'
 agents:
           '0xbdE2Aed54521000DC033B67FB522034e0F93A7e5':
+```
+![image](https://github.com/ahmkah/PowerPool/assets/99053148/af846c7d-001a-4752-90c2-892795e1fa26)
 
 ```console
 # ADIM-8, Şimdi Nodu Çalıştıracağız:
@@ -94,9 +95,8 @@ docker logs -f sepolia-agent-standalone-bot-1
 
 Şimdi configürasyonu yapıyoruz bu kısmı herkes bildiği için detaya girmiyorum. 
 
-![image](https://github.com/ahmkah/PowerPool/assets/99053148/d3681136-db1b-4b78-8bc6-dc622f2df3e5)
-
 ```
+![image](https://github.com/ahmkah/PowerPool/assets/99053148/d3681136-db1b-4b78-8bc6-dc622f2df3e5)
 
 ```console
 
@@ -118,10 +118,8 @@ docker logs -f sepolia-agent-standalone-bot-1
 
 > Aşama-9: Value'leri true, gas'ı'da 60,000 yapıp, submit diyoruz.
 
-![image](https://github.com/ahmkah/PowerPool/assets/99053148/3ef81bd0-a9da-46ed-aeef-f6255b986dd1)
-
 ```
-
+![image](https://github.com/ahmkah/PowerPool/assets/99053148/3ef81bd0-a9da-46ed-aeef-f6255b986dd1)
 
 
 
