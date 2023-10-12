@@ -59,7 +59,9 @@ npm i
 ```
 
 ```console
-# ADIM-7, PowerArgent yedek aldığımız  UTC--2023-08-18T09-32-40.364Z--8ccf..... dosyamızı Winscp tarzı bir uygulama ile  "sepolia-agent-standalone/keys/" içine taşıyalım ve "yourkeygoeshere" yazan dosyayı silelim.. Aşağıdaki dosyada gerekli yerleri düzeltip kaydedip çıkıyoruz ( CTRL+X y enter)
+# ADIM-7, PowerArgent yedek aldığımız  UTC--2023-08-18T09-32-40.364Z--8ccf..... dosyamızı Winscp tarzı bir uygulama ile
+"sepolia-agent-standalone/keys/" içine taşıyalım ve "yourkeygoeshere" yazan dosyayı silelim..
+Aşağıdaki dosyada gerekli yerleri düzeltip kaydedip çıkıyoruz ( CTRL+X y enter)
 
 sepolia-agent-standalone/config/main.yaml
 ![image](https://github.com/ahmkah/PowerPool/assets/99053148/af846c7d-001a-4752-90c2-892795e1fa26)
@@ -90,7 +92,7 @@ docker logs -f sepolia-agent-standalone-bot-1
 
 /ipfs/QmULaiokk8QZXdBNq4VbgsZnSEEeczG1qrLgZrbnDp6UHp
 
-Şimdi configürasyonu yapıyoruz bu kısmı herkes bildiği için detaya girmiyorum. Birebir doldurun daha önceki gibi sadece argent adresi ve RPC yi değiştirin..
+Şimdi configürasyonu yapıyoruz bu kısmı herkes bildiği için detaya girmiyorum. 
 
 ![image](https://github.com/ahmkah/PowerPool/assets/99053148/d3681136-db1b-4b78-8bc6-dc622f2df3e5)
 
