@@ -47,7 +47,6 @@ sudo apt install npm
 
 ```console
 # ADIM-5, sepolia-agent-standalone klonlayalım:
-
 git clone https://github.com/eitelvolkerts/sepolia-agent-standalone
 ```
 
@@ -60,14 +59,14 @@ npm i
 
 ```console
 # ADIM-7, PowerArgent yedek aldığımız  UTC--2023-08-18T09-32-40.364Z--8ccf..... dosyamızı Winscp tarzı bir uygulama ile
-"sepolia-agent-standalone/keys/" içine taşıyalım ve "yourkeygoeshere" yazan dosyayı silelim..
-Aşağıdaki dosyada gerekli yerleri düzeltip kaydedip çıkıyoruz ( CTRL+X y enter)
+> "sepolia-agent-standalone/keys/" içine taşıyalım ve "yourkeygoeshere" yazan dosyayı silelim..
+> Aşağıdaki dosyada gerekli yerleri düzeltip kaydedip çıkıyoruz ( CTRL+X y enter)
 
 sepolia-agent-standalone/config/main.yaml
 
-rpc: 'wss://sepolia-geth-ws.863d6819366102aa.dyndns.dappnode.io'
-agents:
-          '0xbdE2Aed54521000DC033B67FB522034e0F93A7e5':
+> rpc: 'wss://sepolia-geth-ws.863d6819366102aa.dyndns.dappnode.io'
+> agents:
+>           '0xbdE2Aed54521000DC033B67FB522034e0F93A7e5':
 ```
 ![image](https://github.com/ahmkah/PowerPool/assets/99053148/af846c7d-001a-4752-90c2-892795e1fa26)
 
@@ -91,11 +90,11 @@ docker logs -f sepolia-agent-standalone-bot-1
 
 ```console
 # ADIM-10, Dappnode Entegrasyonu yapıp logları daha kolay izleyebiliriz başlayaım:
-Önce Wireguard ile node bağlanıyoruz ve Dappstore kısmına gelip aşağıdaki hash aratalım ve bypass alıp kuralım.
+> Önce Wireguard ile node bağlanıyoruz ve Dappstore kısmına gelip aşağıdaki hash aratalım ve bypass alıp kuralım.
 
-/ipfs/QmULaiokk8QZXdBNq4VbgsZnSEEeczG1qrLgZrbnDp6UHp
+>   /ipfs/QmULaiokk8QZXdBNq4VbgsZnSEEeczG1qrLgZrbnDp6UHp
 
-Şimdi configürasyonu yapıyoruz bu kısmı herkes bildiği için detaya girmiyorum. 
+>  Şimdi configürasyonu yapıyoruz bu kısmı herkes bildiği için detaya girmiyorum. 
 
 ```
 ![image](https://github.com/ahmkah/PowerPool/assets/99053148/d3681136-db1b-4b78-8bc6-dc622f2df3e5)
