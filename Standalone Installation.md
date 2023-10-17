@@ -97,43 +97,6 @@ docker logs sepolia-agent-standalone-bot-1 >& powerargentlogfile.log
 
 ```
 
-![image](https://github.com/ahmkah/PowerPool/assets/99053148/9fbc36d0-da82-42c5-8c34-2557a796cfe9)
-
-```console
-# ADIM-10, Dappnode Entegrasyonu yapıp logları daha kolay izleyebiliriz başlayaım:
-> Önce Wireguard ile node bağlanıyoruz ve Dappstore kısmına gelip aşağıdaki hash aratalım ve bypass alıp kuralım.
-
->   /ipfs/QmULaiokk8QZXdBNq4VbgsZnSEEeczG1qrLgZrbnDp6UHp
-
->  Şimdi configürasyonu yapıyoruz bu kısmı herkes bildiği için detaya girmiyorum. 
-
-```
-![image](https://github.com/ahmkah/PowerPool/assets/99053148/d3681136-db1b-4b78-8bc6-dc622f2df3e5)
-
-```console
-
-> Aşama-1: Worker cüzdan adresimizi girelim
-
-> Aşama-2: Worker Key olarak bilgisayarımıza yüklediğimiz UTC'li klasörü sürükleyelim.
-
-> Aşama-3: Keyfile Password için: `node jsongen.js <> <>` komutunda kullandığımız şifreyi girelim.
-
-> Aşama-4: Network'ü Sepolia olarak seçelim.
-
-> Aşama-5: RPC olarak bu bağlantıyı girelim: `wss://sepolia-geth-ws.863d6819366102aa.dyndns.dappnode.io`
-
-> Aşama-6: Agent adresi girelim: `0xbdE2Aed54521000DC033B67FB522034e0F93A7e5`
-
-> Aşama-7: Logging level girelim : `debug`
-
-> Aşama-8: her iki değeride `true` , `true` girin
-
-> Aşama-9: Value'leri true, gas'ı'da 60,000 yapıp, submit diyoruz.
-
-```
-![image](https://github.com/ahmkah/PowerPool/assets/99053148/3ef81bd0-a9da-46ed-aeef-f6255b986dd1)
-
-
 
 
 
